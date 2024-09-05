@@ -1,0 +1,35 @@
+{
+  "name": "simple-sql",
+  "version": "1.0.0",
+  "description": "Simple SQL",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project ./",
+    "db:mysql": "node dist/db.mysql.js",
+    "db:mssql": "node dist/db.mssql.js",
+    "db:odbc": "node dist/db.odbc.js",
+    "db:oracle": "node dist/db.oracle.js",
+    "db:pg": "node dist/db.postgres.js",
+    "kn:exec": "node dist/kn.exec.js",
+    "kn:mysql": "node dist/kn.mysql.js",
+    "kn:mssql": "node dist/kn.mssql.js",
+    "kn:odbc": "node dist/kn.odbc.js",
+    "kn:oracle": "node dist/kn.oracle.js",
+    "kn:pg": "node dist/kn.postgres.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "tassun_oro@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@willsofts/will-sql": "^1.0.31",
+    "mssql": "^9.0.1",
+    "mysql2": "^3.9.3",
+    "odbc": "^2.4.6",
+    "oracledb": "^6.6.0",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
