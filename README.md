@@ -4,7 +4,7 @@ Demostration of [will-sql](https://github.com/willsofts/will-sql) usage
 
 ## How To Install
 
-This project is under [@willsofts](https://github.com/willsofts) libraries protection as private access, then you have to gain access key and setting in your own environment before start installation from administrator. \
+This project is under [@willsofts](https://github.com/willsofts) libraries protection as private access, then you have to gain access key from administrator and setting in your own environment before start installation. \
 ex. \
 Window
 
